@@ -18,7 +18,7 @@ import "fmt"
 func getMessage() (message string) {
 	message = "Hello world!"
 	return
-	x := 42
+	//x := 42
 }
 
 func printMessage(message string) {

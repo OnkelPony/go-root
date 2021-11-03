@@ -18,7 +18,7 @@ import "fmt"
 func main() {
 	var a uint8 = 10
 	var b uint8 = 010
-	var c uint8 = 0x10
+	var c uint = 0x108
 
 	fmt.Println(a)
 	fmt.Println(b)

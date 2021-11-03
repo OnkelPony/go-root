@@ -13,8 +13,6 @@
 
 package main
 
-import "fmt"
-
 func main() {
-	println("Hello world!")
+	println("Hello world without unnecessary import!")
 }
