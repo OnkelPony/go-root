@@ -36,5 +36,7 @@ func main() {
 		name:    "Josef",
 		surname: "Vyskočil"}
 
+	m1["třetí"] = User{3, "Pepi", "Wiskotsch"}
+
 	fmt.Println(m1)
 }

@@ -33,5 +33,6 @@ func main() {
 	var n Name = "Jan"
 	var s Surname = "Novák"
 
-	registerUser(i, s, n)
+	//registerUser(i, s, n)
+	registerUser(i, n, s)
 }

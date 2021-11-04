@@ -42,5 +42,11 @@ func main() {
 		name:    "Josef",
 		surname: "Vyskočil"}
 
+	m1[Key{3, "boss"}] = User{
+		id:      3,
+		name:    "Pepi",
+		surname: "Wüẞkotsch",
+	}
+
 	fmt.Println(m1)
 }

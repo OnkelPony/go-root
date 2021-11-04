@@ -26,6 +26,7 @@ func main() {
 	m1["ctyri"] = 4
 	m1["pet"] = 5
 	m1["sest"] = 6
+	m1["stoosm"] = 108
 
 	fmt.Println(m1)
 
@@ -40,6 +41,12 @@ func main() {
 	value, exist = m1["sto"]
 
 	if exist {
+		fmt.Println("Found:", value)
+	} else {
+		fmt.Println("Not found")
+	}
+
+	if value, exist = m1["stoosm"]; exist {
 		fmt.Println("Found:", value)
 	} else {
 		fmt.Println("Not found")

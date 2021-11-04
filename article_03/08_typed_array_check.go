@@ -33,8 +33,11 @@ func main() {
 		"Listopad",
 		"Prosinec"}
 
-	var mesice2 [12]string = mesice
-
+	//var mesice2 [12]string = mesice
+	var mesice2 [12]string
+	for i, mesic := range mesice {
+		mesice2[i] = string(mesic)
+	}
 	fmt.Println(mesice)
 	fmt.Println(mesice2)
 }
