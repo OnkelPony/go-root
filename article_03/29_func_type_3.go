@@ -51,9 +51,9 @@ func main() {
 
 	b = funkce3
 	fmt.Println(b)
-	fmt.Println(b(10, 20))
+	fmt.Println(b(36, 6))
 
 	b = funkce4
 	fmt.Println(b)
-	fmt.Println(b(10, 20))
+	fmt.Println(b(36, 6))
 }

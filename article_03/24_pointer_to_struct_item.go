@@ -39,4 +39,8 @@ func main() {
 
 	(*pName) = "Zdeněk"
 	fmt.Println(*pName)
+	fmt.Println(u)
+	pSurname := &u.surname
+	*pSurname = "Pohlreich"
+	fmt.Println(u)
 }

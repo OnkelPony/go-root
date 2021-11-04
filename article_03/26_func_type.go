@@ -34,4 +34,5 @@ func main() {
 	a = funkce2
 	fmt.Println(a)
 	a()
+	fmt.Printf("%d", 0xFFFFFF)
 }
