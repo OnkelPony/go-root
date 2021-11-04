@@ -21,4 +21,9 @@ func main() {
 	for i := 0; i < len(s); i++ {
 		fmt.Printf("%02x ", s[i])
 	}
+	fmt.Println()
+	fmt.Println("******************")
+	for _, char := range s {
+		fmt.Printf("%c", char)
+	}
 }

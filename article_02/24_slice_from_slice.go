@@ -33,7 +33,7 @@ func main() {
 	fmt.Printf("Kapacita rezu 2: %d\n\n", cap(slice2))
 
 	slice2[0] = 99
-	slice2[1] = 99
+	slice2[1] = 108
 
 	fmt.Printf("Pole:            %v\n", a)
 	fmt.Printf("Rez 1:           %v\n", slice1)

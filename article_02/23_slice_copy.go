@@ -31,7 +31,7 @@ func main() {
 	fmt.Printf("Řez po modifikaci:    %v\n", slice)
 
 	for i := 0; i < len(slice); i++ {
-		slice[i] = 42
+		slice[i] = 108
 	}
 
 	fmt.Printf("Pole po modifikací:   %v\n", a)

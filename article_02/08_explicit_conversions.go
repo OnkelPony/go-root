@@ -21,14 +21,17 @@ func main() {
 	var unsignedInt uint32 = 100000
 	var e float32 = 1e4
 	var f float64 = 1.5e30
+	var pi float32 = 3.141592653589
 
 	var x int32 = int32(a)
 	var y int32 = int32(e)
 	var z float32 = float32(f)
+	var ča int32 = int32(pi)
 
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
+	fmt.Printf("ča je %v\n", ča)
 
 	var b2 uint8 = uint8(signedInt)
 	var b3 uint8 = uint8(unsignedInt)

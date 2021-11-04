@@ -13,10 +13,14 @@
 
 package main
 
+import "fmt"
+
 func main() {
-	var c float32 = 1e300
-	var d float32 = -1e300
+	//var c float32 = 1e300
+	//var d float32 = -1e300
 
 	var g float64 = 1e3000
 	var h float64 = -1e3000
+	//fmt.Fprintf("g: %f, h: %f\n", g, h)
+	fmt.Println("g, h =", g, h)
 }

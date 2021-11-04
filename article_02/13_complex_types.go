@@ -28,7 +28,7 @@ func main() {
 
 	var e complex128 = -1.5 + 0i
 	var f complex128 = 1.5 + 1000i
-	var g complex128 = 1e300 + 1e300i
+	var g complex128 = 1e300 - 1e300i
 
 	fmt.Println(e)
 	fmt.Println(f)

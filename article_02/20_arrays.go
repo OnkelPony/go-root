@@ -13,7 +13,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	var a1 [10]byte
@@ -29,7 +32,7 @@ func main() {
 	fmt.Printf("Pole pred upravou: %v\n", a)
 
 	for i := 0; i < len(a1); i++ {
-		a[i] = i * 2
+		a[i] = int(math.Pow(float64(i), float64(i)))
 	}
 
 	fmt.Printf("Pole po uprave:    %v\n", a)

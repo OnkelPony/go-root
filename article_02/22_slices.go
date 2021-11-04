@@ -33,4 +33,5 @@ func main() {
 	slice3 := a1[30:40]
 	fmt.Printf("Delka rezu 3:    %d\n", len(slice3))
 	fmt.Printf("Kapacita rezu 3: %d\n", cap(slice3))
+	fmt.Printf("%T", slice3)
 }

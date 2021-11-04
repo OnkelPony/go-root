@@ -19,7 +19,7 @@ func main() {
 	var a bool = true
 	var b bool = false
 	var c bool = 0
-	var d bool = ""
+	var d bool = "q"
 
 	fmt.Println(a)
 	fmt.Println(b)
