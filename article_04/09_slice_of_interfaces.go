@@ -70,7 +70,7 @@ func main() {
 		Ellipse{x: 0, y: 0, a: 100, b: 50}}
 
 	for _, shape := range shapes {
-		fmt.Println(shape)
+		fmt.Printf("%T\n", shape)
 		fmt.Println(area(shape))
 		fmt.Println(shape.area())
 		fmt.Println()

@@ -15,7 +15,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 // OpenShape je uživatelsky definovaná datová struktura

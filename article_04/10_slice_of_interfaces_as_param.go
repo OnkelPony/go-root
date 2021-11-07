@@ -65,6 +65,7 @@ func (ellipse Ellipse) area() float64 {
 
 func printAreas(shapes []ClosedShape) {
 	for _, shape := range shapes {
+		fmt.Printf("%T ", shape)
 		fmt.Println(shape)
 		fmt.Println(area(shape))
 		fmt.Println(shape.area())

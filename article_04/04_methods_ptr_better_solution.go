@@ -40,7 +40,7 @@ func main() {
 	line1 := Linia{x1: 0, y1: 0, x2: 100, y2: 100}
 
 	fmt.Println(line1)
-	line1.translate(5, 5)
+	line1.translate(5, 6)
 	fmt.Println(line1)
 
 	lineLength := line1.length()

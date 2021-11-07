@@ -24,6 +24,7 @@ type Interface1 interface {
 type Interface2 interface {
 	Interface1
 	method2()
+	method3()
 }
 
 // Type je uživatelsky definovaný datový typ
@@ -35,6 +36,10 @@ func (Type) method1() {
 
 func (Type) method2() {
 	fmt.Println("Type.method2")
+}
+
+func (Type) method3() {
+	fmt.Println("Type.method3")
 }
 
 func f1(i Interface1) {

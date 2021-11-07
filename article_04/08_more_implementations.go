@@ -72,6 +72,14 @@ func (line Line) length() float64 {
 	return math.Hypot(line.x1-line.x2, line.y1-line.y2)
 }
 
+type Point struct {
+	x, y float64
+}
+
+func (point Point) length() float64 {
+	return 0
+}
+
 func (rect Rectangle) area() float64 {
 	return rect.width * rect.height
 }
@@ -111,5 +119,12 @@ func main() {
 	fmt.Println(e)
 	fmt.Println(area(e))
 	fmt.Println(e.area())
+	fmt.Println()
+
+	fmt.Println("Point")
+	p := Point{108, 666}
+	fmt.Println(p)
+	fmt.Println(length(p))
+	fmt.Println(p.length())
 	fmt.Println()
 }
