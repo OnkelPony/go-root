@@ -23,5 +23,8 @@ func main() {
 	fmt.Println("main begin")
 	go message(1)
 	go message(2)
+	for i := 0; i < 1000; i++ {
+		fmt.Printf("%v", i)
+	}
 	fmt.Println("main end")
 }
