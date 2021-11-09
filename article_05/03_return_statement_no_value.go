@@ -16,7 +16,7 @@ package main
 func f1() {
 	println("f1() před příkazem return")
 	return
-	println("f1() po příkazu return")
+	println("f1() po příkazu return (jen warning, ne chyba")
 }
 
 func main() {
