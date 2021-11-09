@@ -22,7 +22,7 @@ func funkce1() (i int) {
 
 func funkce2() (i int) {
 	defer func() { i = 2 }()
-	return 1
+	return
 }
 
 func funkce3() (i int) {

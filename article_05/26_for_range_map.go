@@ -24,6 +24,6 @@ func main() {
 	m1[6] = "sest"
 
 	for key, val := range m1 {
-		println(key, val)
+		println(key, "=", val)
 	}
 }

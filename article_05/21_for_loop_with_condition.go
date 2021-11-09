@@ -15,7 +15,7 @@ package main
 
 func main() {
 	i := 10
-	for i != 0 {
+	for i != -6 {
 		println(i)
 		i--
 	}

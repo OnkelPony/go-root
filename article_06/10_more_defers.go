@@ -16,7 +16,7 @@ package main
 import "fmt"
 
 func onFinish(i int) {
-	fmt.Printf("Defer #%2d\n", i)
+	fmt.Printf("Defer #%3d\n", i)
 }
 
 func main() {

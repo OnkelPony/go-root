@@ -21,7 +21,7 @@ Exit:
 		for j := 1; j <= 10; j++ {
 			fmt.Printf("%3d ", i*j)
 			if i*j == 42 {
-				fmt.Println("\nodpověď nalezena!\n")
+				fmt.Println("\nodpověď nalezena!\n", i, "*", j)
 				break Exit
 			}
 		}

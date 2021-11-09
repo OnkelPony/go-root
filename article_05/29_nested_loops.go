@@ -16,8 +16,8 @@ package main
 import "fmt"
 
 func main() {
-	for i := 1; i <= 10; i++ {
-		for j := 1; j <= 10; j++ {
+	for i := 1; i <= 108; i++ {
+		for j := 1; j <= 108; j++ {
 			fmt.Printf("%3d ", i*j)
 		}
 		fmt.Println()
