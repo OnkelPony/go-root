@@ -45,7 +45,7 @@ func (day Enum) String() string {
 }
 
 func reservation(day Enum) {
-	fmt.Printf("Reservation for %s\n", day.String())
+	fmt.Printf("Reservation for %s\n", day)
 }
 
 func main() {

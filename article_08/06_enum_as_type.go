@@ -50,7 +50,7 @@ func (day Enum) String() string {
 }
 
 func reservation(day Den) {
-	fmt.Printf("Reservation for %s\n", day)
+	fmt.Printf("Reservation for %s\n", day.X)
 }
 
 func main() {
@@ -59,6 +59,6 @@ func main() {
 	reservation(Den{Nedele})
 
 	day := Den{Pondeli}
-	day++
+	//day++
 	reservation(day)
 }
