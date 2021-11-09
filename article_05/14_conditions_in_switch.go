@@ -27,7 +27,7 @@ func classify(x int) string {
 }
 
 func main() {
-	for x := 0; x <= 10; x++ {
+	for x := 0; x <= 108; x++ {
 		println(x, classify(x))
 	}
 }

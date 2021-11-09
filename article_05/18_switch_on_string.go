@@ -17,6 +17,8 @@ func command(x string) string {
 	switch x {
 	case "":
 		return "missing command"
+	case "co?":
+		fallthrough
 	case "help":
 		fallthrough
 	case "info":
@@ -39,4 +41,5 @@ func main() {
 	println(command("bye"))
 	println(command("quit"))
 	println(command("exit"))
+	println(command("co?"))
 }
