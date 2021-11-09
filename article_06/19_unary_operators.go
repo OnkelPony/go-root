@@ -46,5 +46,5 @@ func main() {
 	// unární operátor <-
 	channel := make(chan int)
 	go message(channel)
-	<-channel
+	channel <- 108
 }
