@@ -23,6 +23,8 @@ const z1 = 0
 
 const z2 = z0 + z1
 
+const b = 108
+
 func main() {
 	fmt.Printf("Pi = %f\n", Pi)
 	fmt.Printf("e = %f\n", E)
@@ -31,4 +33,6 @@ func main() {
 	fmt.Printf("z1 = %d\n", z1)
 
 	fmt.Printf("z2 = %d\n", z2)
+
+	fmt.Printf("b = %d\n", b)
 }

@@ -16,7 +16,7 @@ package main
 import "fmt"
 
 const (
-	Pondeli = iota
+	Pondeli = iota + 1
 	Utery
 	Streda
 	Ctvrtek
