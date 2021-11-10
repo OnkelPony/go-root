@@ -40,6 +40,6 @@ func main() {
 	case <-time.After(2 * time.Second):
 		fmt.Println("Timeout!")
 	default:
-		fmt.Println("No data!")
+		fmt.Println("No data, pyčo!")
 	}
 }
