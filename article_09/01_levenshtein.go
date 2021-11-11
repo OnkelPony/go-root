@@ -27,6 +27,10 @@ func main() {
 	s2 = "Markéta"
 	println(levenshtein.Distance(s1, s2, nil))
 
+	s1 = "Markéta"
+	s2 = "marketing"
+	println(levenshtein.Distance(s1, s2, nil))
+
 	s1 = " foo"
 	s2 = "jiný naprosto odlišný text nesouvisející s foo"
 	println(levenshtein.Distance(s1, s2, nil))

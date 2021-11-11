@@ -29,5 +29,6 @@ func main() {
 	l.PushBack("foo")
 	l.PushBack("bar")
 	l.PushBack("baz")
+	l.PushFront("prcat")
 	printList(l)
 }

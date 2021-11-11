@@ -36,4 +36,5 @@ func main() {
 	tryToParseInteger("-42x")
 	tryToParseInteger("-")
 	println()
+	tryToParseInteger("0x42")
 }

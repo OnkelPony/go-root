@@ -15,11 +15,12 @@ package main
 
 import (
 	"strconv"
+	"strings"
 )
 
 func main() {
 	value := int64(0xcafebabe)
 	for base := 2; base < 36; base++ {
-		println(base, strconv.FormatInt(value, base))
+		println(base, strings.ToUpper(strconv.FormatInt(value, base)))
 	}
 }

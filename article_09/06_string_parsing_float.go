@@ -40,4 +40,5 @@ func main() {
 	tryToParseFloat(".5E10")
 	tryToParseFloat(".5E-5")
 	tryToParseFloat("-.5E-5")
+	tryToParseFloat("3,14")
 }
