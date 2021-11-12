@@ -23,6 +23,7 @@ func main() {
 	var height int
 	var aa bool
 	var output string
+	var cyp string
 
 	flag.IntVar(&width, "w", 0, "image width (shorthand)")
 	flag.IntVar(&width, "width", 0, "image width")
@@ -36,10 +37,13 @@ func main() {
 	flag.StringVar(&output, "o", "", "output file name (shorthand)")
 	flag.StringVar(&output, "output", "", "output file name")
 
+	flag.StringVar(&cyp, "cypher", "md5", "cypher used")
+	flag.StringVar(&cyp, "c", "md5", "cypher used (shorthand)")
 	flag.Parse()
 
 	fmt.Printf("width: %d\n", width)
 	fmt.Printf("height: %d\n", height)
 	fmt.Printf("antialiasing: %t\n", aa)
 	fmt.Printf("output file name: %s\n", output)
+	fmt.Printf("cypher used: %s\n", cyp)
 }

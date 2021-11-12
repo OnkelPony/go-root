@@ -18,14 +18,14 @@ import (
 	"github.com/emirpasic/gods/sets/linkedhashset"
 )
 
-const maxPrime = 1000
+const maxPrime = 10000
 
 func printSet(set *linkedhashset.Set) {
 	iterator := set.Iterator()
 	for iterator.Next() {
 		index, value := iterator.Index(), iterator.Value()
 		fmt.Printf("%3d ", value)
-		if index%10 == 9 {
+		if index%20 == 19 {
 			fmt.Println()
 		}
 	}

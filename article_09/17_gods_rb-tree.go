@@ -40,4 +40,13 @@ func main() {
 	tree.Put(8, "a")
 	tree.Put(9, "b")
 	fmt.Println(tree)
+
+	tree.Put(108, "a")
+	tree.Put(666, "b")
+	fmt.Println(tree)
+
+	tree.Put(17, "a")
+	tree.Put(202, "b")
+	fmt.Println(tree)
+
 }
