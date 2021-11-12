@@ -19,11 +19,11 @@ import (
 )
 
 func main() {
-	cmd := exec.Command("date", "--date=next Mon")
+	cmd := exec.Command("date", "--date=next Fri")
 	out, err := cmd.Output()
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Printf("Next Monday: %s\n", out)
+		fmt.Printf("Příští pátek: %s\n", out)
 	}
 }

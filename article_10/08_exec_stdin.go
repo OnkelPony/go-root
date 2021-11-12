@@ -30,6 +30,7 @@ func main() {
 	io.WriteString(stdin, "zzz\n")
 	io.WriteString(stdin, "xyz\n")
 	io.WriteString(stdin, "aaa\n")
+	io.WriteString(stdin, "škvarek")
 	stdin.Close()
 
 	out, err := cmd.Output()

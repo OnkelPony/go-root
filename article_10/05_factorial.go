@@ -18,7 +18,7 @@ import (
 	"math/big"
 )
 
-func factorial(n *big.Int) *big.Int {
+func factorial(n *big.Inlt) *big.Int {
 	one := big.NewInt(1)
 	if n.Cmp(big.NewInt(0)) <= 0 {
 		return one
