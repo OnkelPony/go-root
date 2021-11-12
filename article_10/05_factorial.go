@@ -27,7 +27,7 @@ func factorial(n *big.Int) *big.Int {
 }
 
 func main() {
-	for n := int64(1); n < 80; n++ {
+	for n := int64(1); n < 667; n++ {
 		f := factorial(big.NewInt(n))
 		fmt.Printf("%3d! = %s\n", n, f.Text(10))
 	}

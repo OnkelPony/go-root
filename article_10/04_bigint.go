@@ -24,7 +24,7 @@ func main() {
 	x.SetInt64(1)
 	y.SetInt64(2)
 
-	for i := 1; i < 200; i++ {
+	for i := 1; i < 2000; i++ {
 		fmt.Println(x.Text(10))
 		x.Mul(&x, &y)
 	}
