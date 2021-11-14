@@ -22,6 +22,7 @@ func main() {
 	fmt.Printf("PID = %d\n", os.Getpid())
 	fmt.Printf("Parent PID = %d\n", os.Getppid())
 	fmt.Printf("Temp. directory = %s\n", os.TempDir())
+	fmt.Printf("Page Size = %v\n", os.Getpagesize())
 	cwd, err := os.Getwd()
 	if err == nil {
 		fmt.Printf("CWD = %s\n", cwd)

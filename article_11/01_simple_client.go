@@ -26,7 +26,7 @@ func main() {
 		var b [1]byte
 		n, err := conn.Read(b[:])
 		if err != nil {
-			println("No response!")
+			println("No response from server!")
 		} else {
 			if n == 1 {
 				fmt.Printf("Received %d byte: %v\n", n, b)
