@@ -23,7 +23,7 @@ func performLookup(address string) {
 	if err != nil {
 		println("Lookup failure")
 	} else {
-		fmt.Printf("%v\n", ip)
+		fmt.Printf("%v - %v\n", address, ip)
 	}
 }
 
@@ -31,4 +31,5 @@ func main() {
 	performLookup("localhost")
 	performLookup("root.cz")
 	performLookup("google.com")
+	performLookup("technion.ac.il")
 }

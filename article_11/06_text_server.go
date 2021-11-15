@@ -29,6 +29,7 @@ func main() {
 		if err != nil {
 			println("Connection refused!")
 		}
+		fmt.Println("Connection accepted!")
 		go func(c net.Conn) {
 			fmt.Fprintf(c, "Holla\n")
 			c.Close()

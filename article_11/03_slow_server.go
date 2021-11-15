@@ -28,8 +28,9 @@ func main() {
 	defer l.Close()
 	for {
 		conn, err := l.Accept()
-		println("connection accepted")
-		time.Sleep(2 * time.Second)
+		//start := time.Now()
+		println("connection accepted at", time.Now().Second())
+		time.Sleep(3 * time.Second)
 		defer conn.Close()
 		if err != nil {
 			println("Connection refused!")
@@ -38,6 +39,6 @@ func main() {
 			cnt++
 			conn.Write(b)
 		}
-		println("connection closed")
+		println("connection closed at", time.Now().Second())
 	}
 }

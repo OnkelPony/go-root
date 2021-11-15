@@ -15,6 +15,7 @@ package main
 
 import (
 	"net"
+	"time"
 )
 
 func main() {
@@ -30,7 +31,7 @@ func main() {
 		if err != nil {
 			println("Connection refused!")
 		} else {
-			println("Connected")
+			println("Connected at", time.Now().Second())
 			go func(c net.Conn) {
 				var b = []byte{cnt}
 				cnt++

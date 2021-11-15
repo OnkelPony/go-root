@@ -28,6 +28,7 @@ func main() {
 
 	fmt.Printf("Status: %s\n", response.Status)
 	fmt.Printf("Content length: %d\n", response.ContentLength)
+	fmt.Printf("Response header: %v", response.Header)
 
 	rawBody, err := ioutil.ReadAll(response.Body)
 	if err != nil {
