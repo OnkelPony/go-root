@@ -28,6 +28,7 @@ func main() {
 	var r2 rune = '\x40'
 	var r3 rune = '\n'
 	var r4 rune = '\u03BB'
+	var r5 rune = '\u0108'
 
 	aJSON, _ := json.Marshal(a)
 	fmt.Println(string(aJSON))
@@ -52,4 +53,7 @@ func main() {
 
 	r4JSON, _ := json.Marshal(r4)
 	fmt.Println(string(r4JSON))
+
+	r5JSON, _ := json.Marshal(r5)
+	fmt.Println(string(r5JSON))
 }
