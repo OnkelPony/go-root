@@ -33,7 +33,7 @@ func mainEndpoint(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
-	dynData := IndexPageDynContent{Title: "Test", Header: "Welcome!"}
+	dynData := IndexPageDynContent{Title: "Test Praseté", Header: "Welcome to the ocean!"}
 	err = t.Execute(writer, dynData)
 	if err != nil {
 		println("Error executing template")
