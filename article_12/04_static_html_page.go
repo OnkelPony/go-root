@@ -41,6 +41,6 @@ func missingEndpoint(writer http.ResponseWriter, request *http.Request) {
 
 func main() {
 	http.HandleFunc("/", mainEndpoint)
-	http.HandleFunc("/missing", missingPageEndpoint)
+	http.HandleFunc("/missing", missingEndpoint)
 	http.ListenAndServe(":8000", nil)
 }

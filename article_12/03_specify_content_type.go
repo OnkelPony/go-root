@@ -19,7 +19,7 @@ import (
 
 func endpointHTML(writer http.ResponseWriter, request *http.Request) {
 	writer.Header().Set("Content-Type", "text/html")
-	response := "<body><h1>Hello world!</h1></body>\n"
+	response := "<body><h2>Hello world!</h2></body>\n"
 	writer.Write([]byte(response))
 }
 

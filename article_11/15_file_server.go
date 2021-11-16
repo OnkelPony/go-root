@@ -18,6 +18,6 @@ import (
 )
 
 func main() {
-	http.Handle("/", http.FileServer(http.Dir("")))
+	http.Handle("/", http.FileServer(http.Dir("/tmp")))
 	http.ListenAndServe(":8000", nil)
 }

@@ -18,7 +18,7 @@ import (
 )
 
 func mainEndpoint(writer http.ResponseWriter, request *http.Request) {
-	response := "Hello world!\n"
+	response := "Hello world (čau světe)!\n"
 	writer.Write([]byte(response))
 }
 

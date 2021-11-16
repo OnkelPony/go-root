@@ -19,7 +19,7 @@ import (
 )
 
 func mainEndpoint(writer http.ResponseWriter, request *http.Request) {
-	io.WriteString(writer, "Hello world!\n")
+	io.WriteString(writer, "Hello world, neboli světe!\n")
 }
 
 func main() {
