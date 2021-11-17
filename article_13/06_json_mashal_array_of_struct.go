@@ -33,8 +33,8 @@ func main() {
 			Surname: "Vyskoč"},
 		User{
 			ID:      2,
-			Name:    "Pepek",
-			Surname: "Vyskoč"},
+			Name:    "Pepi",
+			Surname: "Wüẞkotsch"},
 		User{
 			ID:      3,
 			Name:    "Josef",

@@ -26,8 +26,8 @@ type Identifiers struct {
 
 // User je uživatelsky definovaná datová struktura s veřejnými atributy
 type User struct {
-	Name    string `json:"user-name"`
-	Surname string `json:"user-surname"`
+	Name    string `json:"Jméno"`
+	Surname string `json:"Příjmení"`
 	Sign    []byte
 	Enabled bool `json:"user-login-enabled"`
 	Ids     Identifiers

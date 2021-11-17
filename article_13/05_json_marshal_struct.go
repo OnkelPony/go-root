@@ -21,7 +21,7 @@ import (
 // User1 je uživatelsky definovaná datová struktura s privátními atributy
 type User1 struct {
 	id      uint32
-	name    string
+	Name    string
 	surname string
 }
 
@@ -40,8 +40,8 @@ func main() {
 
 	user2 := User2{
 		1,
-		"Pepek",
-		"Vyskoč"}
+		"Pepi",
+		"Wüẞkotsch"}
 
 	user1JSON, _ := json.Marshal(user1)
 	fmt.Println(string(user1JSON))
