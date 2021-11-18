@@ -18,8 +18,7 @@ import "testing"
 func TestAdd(t *testing.T) {
 	result := add(1, 2)
 	if result != 3 {
-		t.Log("1+2 should be 3, got ", result, "instead")
-		t.FailNow()
+		t.Fatal("1+2 should be 3, got ", result, "instead")
 	}
 
 	result = add(10, 20)
