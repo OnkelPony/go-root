@@ -35,6 +35,9 @@ func main() {
 	fmt.Println(inputJSON)
 
 	bytes := []byte(inputJSON)
+	fmt.Println("\nBytes:")
+	fmt.Println(bytes)
+
 	var user User
 	json.Unmarshal(bytes, &user)
 

@@ -42,7 +42,7 @@ func main() {
 	json.Unmarshal(inputJSONAsBytes, &m1)
 
 	fmt.Println("\nOutput:")
-	fmt.Println(m1)
+	fmt.Printf("%+v", m1)
 
 	fmt.Println("\nUsers:")
 	for key, user := range m1 {
