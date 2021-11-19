@@ -13,7 +13,7 @@
 package factorial_test
 
 import (
-	"factorial"
+	"github.com/OnkelPony/go-root/article_17/factorial"
 	"testing"
 )
 

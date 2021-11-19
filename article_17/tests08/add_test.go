@@ -13,11 +13,31 @@
 
 package main
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
+
+type AddTest struct {
+	x        int32
+	y        int32
+	expected int32
+}
 
 func TestAdd(t *testing.T) {
 	result := add(1, 2)
 	if result != 3 {
 		t.Error("1+2 should be 3, got ", result, "instead")
+	}
+}
+
+func CheckAdd(t *testing.T, testInputs []AddTest) {
+	for _, i := range testInputs {
+		result := add(i.x, i.y)
+		if result != i.expected {
+			msg := fmt.Sprintf("%d + %d should be %d, got %d instead",
+				i.x, i.y, i.expected, result)
+			t.Error(msg)
+		}
 	}
 }

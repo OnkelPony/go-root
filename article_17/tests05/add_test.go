@@ -32,6 +32,7 @@ func TestAdd(t *testing.T) {
 		{2, 0, 2},
 		{2, 1, 3},
 		{2, -2, 0},
+		{108, 666, 774},
 		{math.MaxInt32, 0, math.MaxInt32},
 		{math.MaxInt32, 1, math.MinInt32},
 		{math.MaxInt32, math.MinInt32, -1},
