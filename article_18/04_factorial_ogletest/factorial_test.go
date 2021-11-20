@@ -11,7 +11,7 @@
 package factorial_test
 
 import (
-	"factorial"
+	"github.com/OnkelPony/go-root/article_18/04_factorial_ogletest"
 	"github.com/jacobsa/oglematchers"
 	"github.com/jacobsa/ogletest"
 	"testing"

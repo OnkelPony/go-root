@@ -52,6 +52,15 @@ func TestFactorialForSmallNumberNegative(t *testing.T) {
 	}
 }
 
+func TestFactorialForEight(t *testing.T) {
+	result := factorial.Factorial(8)
+	m := oglematchers.AllOf(
+		oglematchers.GreaterThan(120),
+		oglematchers.LessThan(60000))
+	if m.Matches(result) != nil {
+		t.Errorf("Expected that 8! is between 120 and 6000")
+	}
+}
 func TestFactorialForTen(t *testing.T) {
 	result := factorial.Factorial(10)
 	expected := int64(3628800)
