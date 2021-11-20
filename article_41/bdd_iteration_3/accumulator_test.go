@@ -9,7 +9,7 @@ package accumulator
 
 import (
 	"fmt"
-	"github.com/DATA-DOG/godog"
+	"github.com/cucumber/godog"
 )
 
 var testAccumulator *acc = nil

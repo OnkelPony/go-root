@@ -8,7 +8,7 @@
 package accumulator
 
 import (
-	"github.com/DATA-DOG/godog"
+	"github.com/cucumber/godog"
 )
 
 func iHaveAnAccumulatorWith(arg1 int) error {

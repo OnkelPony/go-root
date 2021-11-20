@@ -10,7 +10,7 @@ package accumulator
 import (
 	"flag"
 	"fmt"
-	"github.com/DATA-DOG/godog"
+	"github.com/cucumber/godog"
 	"os"
 	"testing"
 )

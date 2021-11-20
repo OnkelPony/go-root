@@ -9,7 +9,7 @@ package accumulator
 
 import (
 	"flag"
-	"github.com/DATA-DOG/godog"
+	"github.com/cucumber/godog"
 )
 
 type acc struct {
