@@ -11,7 +11,7 @@
 package factorial_test
 
 import (
-	"factorial"
+	"github.com/OnkelPony/go-root/article_18/06_factorial_assertions"
 	"github.com/smartystreets/assertions"
 	"testing"
 )
