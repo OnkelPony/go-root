@@ -55,5 +55,8 @@ func TestSliceManipulation(t *testing.T) {
 		Convey("And now the slice should be empty again", func() {
 			So(s, ShouldBeEmpty)
 		})
+		Convey("And now it should fail", func() {
+			So(s, ShouldNotBeEmpty)
+		})
 	})
 }
